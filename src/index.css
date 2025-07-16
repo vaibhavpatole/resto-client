@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Add to your global CSS */
+/* .glass-card {
+    @apply bg-white bg-opacity-50 backdrop-blur-lg rounded-lg shadow-lg transition-transform duration-300;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px);
+} */
+
+aside button[title] {
+    position: relative;
+}
+
+aside button[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1e293b;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside button {
+    transition: all 0.2s ease-in-out;
+}
+
+aside button:hover {
+    transform: scale(1.05);
+}
