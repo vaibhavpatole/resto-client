@@ -26,6 +26,7 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.2",
     "recharts": "^3.0.2",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.10",
     "xlsx": "^0.18.5",
     "yup": "^1.6.1"
